@@ -39,15 +39,12 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_JzNzMvz_9mY5xaLaM");
-
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+        emailjs.init("user_JzNzMvz_9mY5xaLaM"); // Or your latest public key
+        emailjs.sendForm('service_hee9s8a', 'template_r41infd', '#contact-form')
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
                 alert("Form Submitted Successfully");
             }, function (error) {
-                console.log('FAILED...', error);
                 alert("Form Submission Failed! Try Again");
             });
         event.preventDefault();
