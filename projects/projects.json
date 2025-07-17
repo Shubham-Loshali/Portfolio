@@ -5,7 +5,7 @@
     "image": "portfolio.jpg",
     "category": "web",
     "links": {
-      "view": "https://shubham-loshali.github.io/Portfolio-Website-main/",
+      "view": "https://shubham-loshali.github.io/Portfolio/",
       "code": "https://github.com/Shubham-Loshali/Portfolio-Website-main"
     }
   },
@@ -42,7 +42,6 @@
     "image": "PASSWORDGENERATOR.jpeg",
     "category": "web",
     "links": {
-      "view": "https://shubham-loshali.github.io/Password-Generator/",
       "code": "https://github.com/Shubham-Loshali/Password-Generator"
     }
   },
