@@ -207,14 +207,16 @@ header .navbar ul li a:hover{
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
   overflow:hidden;
-  height:30rem;
+  height:320px; /* Set consistent box height */
   background: #fff;
   border: none;
 }
 .work .box-container .box img{
-  height: 100%;
-  width:100%;
-  object-fit: cover;
+  width: 100%;
+  height: 220px; /* Set fixed image height */
+  object-fit: cover; /* Crop to fill */
+  border-radius: 8px; /* Optional: rounded corners */
+  background: #fff; /* Optional: background for letterboxing */
 }
 .work .box-container .box .content{
   height: 100%;
