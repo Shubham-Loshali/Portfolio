@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Portfolio Website",
+    "desc": "Personal Portfolio Website showcasing my skills, projects, and experience. Built with HTML, CSS, JavaScript, and modern web technologies.",
+    "image": "portfolio.jpg",
+    "category": "web",
+    "links": {
+      "view": "https://shubham-loshali.github.io/Portfolio-Website-main/",
+      "code": "https://github.com/Shubham-Loshali/Portfolio-Website-main"
+    }
+  },
+  {
+    "name": "GUI Movie Ticket Booking System",
+    "desc": "A fully functional Python-based movie ticket booking system with seat selection, QR code payments, and MySQL database integration.",
+    "image": "movie.jpg",
+    "category": "PYTHON",
+    "links": {
+      "code": "https://github.com/Shubham-Loshali/py--Movie-ticket-booking"
+    }
+  },
+  {
+    "name": "GUI YouTube Downloader",
+    "desc": "A simple yet powerful Python-based GUI application to download YouTube videos and audio directly to your device. Built with Python, customtkinter, and pytube.",
+    "image": "ytdownload.png",
+    "category": "PYTHON",
+    "links": {
+      "code": "https://github.com/Shubham-Loshali/GUI-YTDownloader"
+    }
+  },
+  {
+    "name": "Todo List",
+    "desc": "A dynamic todo list application with add, delete, and mark as complete functionality. Built purely with python",
+    "image": "todolist.png",
+    "category": "PYTHON",
+    "links": {     
+      "code": "https://github.com/Shubham-Loshali/ToDoList"
+    }
+  },
+  {
+    "name": "Password Generator",
+    "desc": "A secure password generator that creates strong passwords with customizable options. Built with HTML, CSS, and JavaScript.",
+    "image": "PASSWORDGENERATOR.jpeg",
+    "category": "web",
+    "links": {
+      "view": "https://shubham-loshali.github.io/Password-Generator/",
+      "code": "https://github.com/Shubham-Loshali/Password-Generator"
+    }
+  },
+  {
+    "name": "Stopwatch",
+    "desc": "A simple terminal-based stopwatch application with start, stop, and reset functionality. Built with Python and tkinter, featuring a clean GUI.",
+    "image": "stopwatch.jpg",
+    "category": "PYTHON",
+    "links": {
+      "code": "https://github.com/Shubham-Loshali/Stopwatch"
+    }
+  },
+  {
+    "name": "P2P Version 2",
+    "desc": "A peer-to-peer file sharing application built with TypeScript, enabling direct file transfers between users over the web.",
+    "image": "p2p.png",
+    "category": "web",
+    "links": {
+      "view": "https://sharedrop-t1yn.onrender.com/",
+      "code": "https://github.com/Shubham-Loshali/P2P-VERSION-2-"
+    }
+  }
+]
