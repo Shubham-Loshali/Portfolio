@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    emailjs.init("user_JzNzMvz_9mY5xaLaM"); // Move this outside the submit handler
 
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
@@ -39,7 +40,7 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_JzNzMvz_9mY5xaLaM"); // Or your latest public key
+        event.preventDefault();
         emailjs.sendForm('service_hee9s8a', 'template_r41infd', '#contact-form')
             .then(function (response) {
                 document.getElementById("contact-form").reset();
@@ -47,7 +48,6 @@ $(document).ready(function () {
             }, function (error) {
                 alert("Form Submission Failed! Try Again");
             });
-        event.preventDefault();
     });
     // <!-- emailjs to mail contact form data -->
 
